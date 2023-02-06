@@ -1,0 +1,16 @@
+package Quiz;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class SquareArea {
+
+	@Test
+	public void test() {
+		QuizOneJunit first = new QuizOneJunit();
+		int result =  first.square(5);
+		assertEquals(25, result);
+	}
+
+}
